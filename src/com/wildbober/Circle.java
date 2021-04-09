@@ -1,8 +1,10 @@
 package com.wildbober;
 
+import java.awt.*;
+
 public class Circle extends Polygone {
-    int R = 1;
-    Circle(Point p, int r){
+    int R;
+    public Circle(Point p, int r){
         R = r;
         addPoint(p);
         System.out.print("");
