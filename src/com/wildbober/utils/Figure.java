@@ -6,15 +6,15 @@ import com.wildbober.Point;
 import java.io.*;
 import java.util.ArrayList;
 
-public class Square extends Line implements Externalizable {
+public class Figure extends Line implements Externalizable {
 
     ArrayList<Line> lines;
 
-    public Square(){
+    public Figure(){
 
     }
 
-    public Square(ArrayList<Line> lines){
+    public Figure(ArrayList<Line> lines){
         this.lines = lines;
     }
 
